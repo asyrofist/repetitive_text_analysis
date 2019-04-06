@@ -1,3 +1,5 @@
+## I apologize for the terrible state of the UAT notebook. It's assembled over several weeks and the variable naming, function calls, etc... are a disaster at the moment. After utilizations are narrowed and abstraction is more apparent, clean, readable scripts will follow.
+
 # perspective_sentiment_analysis
 A set of tools for analyzing repeated speech, such as political speeches or motivational speeches. Auto detects common phrases within a set of text from a single source, or between multiple speakers to do comparative analysis. The final result is a pandas dataframe with the original sentence index, sentence, speaker, splitting phrase, prelude phrase, and postfix phrase.
 
