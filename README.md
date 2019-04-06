@@ -1,0 +1,2 @@
+# perspective_sentiment_analysis
+A set of tools for analyzing repeated speech, such as political speeches or motivational speeches. Auto detects common phrases within a set of text from a single source, or between multiple speakers to do comparative analysis. The final result is a pandas dataframe with the original sentence index, sentence, speaker, splitting phrase, prelude phrase, and postfix phrase.
