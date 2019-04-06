@@ -5,6 +5,9 @@ It's intended development was for analyzing repeated text that has small differe
 
 # Major Goals Of This Project
 By splitting the sentences into two parts along with a common phrase, the speech/text becomes searchable by a phrase. This will enable faster exploratory analysis of large amounts of text.
+
 This also enables sentiment analysis to be used on the prelude and the postfix of auto-parsed sentences. This removes any inherent bias or perspective of a particular issue from the sentence that might trip up systems like Vader. Thus, hot button issues can be analyzed more easily.
+
 It also allows for perspective injection into sentiment analysis. If a listener/reader views that phrase negatively, and the surrounding sentiment of the sentence is negative, then it is an agreeable sentence. If the polarity of the view and the sentence sentiment are different, then it is a challenging sentence. Thus, it can enable prediction of whether someone will view a sentence positively or negatively based on previously held beliefs.
+
 Sentence splitting is also an anonymizing function on sentences. When comparing speech/written patterns of word use, sentence construction, and others, the prelude and postfix can be targeted for similarity analysis regardless of whether the speaker/writer are discussing the same topic.
